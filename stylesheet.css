@@ -1,11 +1,11 @@
 stylesheet.css
 
 p{
-	color: blue;
-	background: red;
+	font-color: blue;
+	background-color: : red;
 }
 
 h1{
 	font-size: 60px;
-	color: red;
+	font-color: red;
 }
