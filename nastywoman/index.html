@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="nastywomen.css">
+   
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";} 
+
+    else {
+        x.className = "topnav";}
+        }
+    </script>
+
+</head>   
+
+<body>
+
+
+	<center>
+
+  	<div id='about_blue' class='color-info'>
+    <ul class="topnav" id="myTopnav">
+  
+
+    <li>Twitter</li>
+    <li>Feminism</li>
+    <li>Protest Live Feed</li>
+    <li>Club39</li>
+  
+    </ul>
+
+    </div>
+
+    <h1>@NastyWoman39</h1>
+
+      <h2>39 Nasty Women on a mission to change the world. Fighting feminist battles, with help from some bad hombres; through education, freedom of speech and equality.</h2>
+
+	
+
+    <div id="contact-form" class="form">
+
+    <h2>What's going on?</h2>
+    
+    <form method="post" action="/gettweet">
+
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" value="" placeholder="Name" required="required" autofocus="autofocus" />
+        <label for="email">Email Address: </label>
+        <input type="email" id="email" name="email" value="" placeholder="Email" required="required" />
+        <input type="submit" value="Submit" id="submit-button" />
+    
+    </form>
+    </div>
+
+
+    </center>
+
+      
+    <div id="twittersearches" class="container">
+  
+    
+        <a class="twitter-timeline"  href="https://twitter.com/hashtag/nastywomen" data-widget-id="841293060730474496">#nastywomen Tweets</a>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+       
+        <a class="twitter-timeline"  href="https://twitter.com/hashtag/Feminism" data-widget-id="841293824479629314">#Feminism Tweets</a>
+        
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        
+    </div>
+
+      
+      
+
+</body>
+</html>
